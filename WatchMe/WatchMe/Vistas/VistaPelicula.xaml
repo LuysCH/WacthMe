@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WatchMe.VistaPelicula">
+    <ContentPage.Content>
+        <Frame Background="#1F1F1F">
+            <StackLayout Background="#06BBE4">
+                <Label Text="Pelicula"
+                   x:Name="lbPelicula"
+                   FontSize="Large"
+                   HorizontalOptions="Center"/>
+                <Image Source=""
+                   x:Name="pbImagen"
+                       />
+                <Label Text="Descripcion"
+                   HorizontalOptions="Start"
+                   x:Name="lbDescripcion"/>
+                <Button Text="Iniciar"
+                        x:Name="btnIniciar"
+                        Clicked="btnIniciar_Clicked"
+                        />
+                <Button Text="Volver"
+                    x:Name="btnVolver"
+                    Clicked="btnVolver_Clicked"
+                        VerticalOptions="End"/>
+
+            </StackLayout>
+        </Frame>
+    </ContentPage.Content>
+</ContentPage>

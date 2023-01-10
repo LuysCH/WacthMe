@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "6hPe2Yyyl+H8FsktcJoWr5v/a21hOO2o2p+EBZyJeCzzI4yUwJIO5pJHiJBPnZyHEGAxLD+8HXv0sVUlBVZ54w==",
+  "success": true,
+  "projectFilePath": "D:\\Progamas\\Visual\\WatchMe\\WatchMe.iOS\\WatchMe.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\emman\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512",
+    "C:\\Users\\emman\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "C:\\Users\\emman\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\emman\\.nuget\\packages\\xamarin.essentials\\1.7.3\\xamarin.essentials.1.7.3.nupkg.sha512",
+    "C:\\Users\\emman\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

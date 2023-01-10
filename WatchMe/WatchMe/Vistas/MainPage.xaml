@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WatchMe.MainPage"
+             NavigationPage.HasNavigationBar="False">
+
+    <StackLayout BackgroundColor="#1F1F1F">
+        <Label Text="Watch Me"
+               TextColor="#39CEFD"
+               HorizontalOptions="Center"
+               FontAttributes="Bold"
+               FontSize="40"
+               Margin="0,25,0,-30"/>
+        <Frame VerticalOptions="FillAndExpand"
+               Margin="30,50,30,50"
+               CornerRadius="20"
+               HasShadow="False"
+               BackgroundColor="#06BBE4">
+            <StackLayout 
+                BackgroundColor="#06BBE4">
+                <Label 
+                       FontSize="Large"
+                       FontAttributes="Bold"
+                       Margin="0,0,0,0"
+                       HorizontalOptions="Center"/>
+                <Image Margin="0,-90,0,0"
+                       Source="WatchMe.jpg"/>
+                <Label Text="Iniciar Sesión"
+                       TextColor="Black"
+                       Margin="0,-70,0,0"/>
+                <Entry Keyboard="Email"  
+                       Placeholder="Correo"
+                       x:Name="txtCorreo"
+                       Text=""/>
+                <Entry IsPassword="True"
+                       Placeholder="Contraseña"
+                       x:Name="txtContraseña"
+                       Text=""/>
+                <StackLayout Orientation="Horizontal"
+                             Margin="0,20,0,0">
+                    <Button Text="Iniciar"
+                            TextTransform="None"
+                            BackgroundColor="#1F1F1F"
+                            TextColor="#06BBE4"
+                            CornerRadius="20"
+                            HorizontalOptions="Center"                            
+                            FontAttributes="Bold"
+                            Margin="50,0,50,0"
+                            x:Name="btnIniciar"
+                            Clicked="btnIniciar_Clicked"
+                            />
+                    <Button Text="Registrarse"
+                            TextTransform="None"
+                            CornerRadius="20"
+                            BackgroundColor="#1F1F1F"
+                            TextColor="#06BBE4"
+                            HorizontalOptions="Center"
+                            Margin="20,0,0,0"
+                            FontAttributes="Bold"
+                            x:Name="btnRegistrarse"
+                            Clicked="btnRegistrarse_Clicked"
+                            />
+                </StackLayout>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+
+</ContentPage>

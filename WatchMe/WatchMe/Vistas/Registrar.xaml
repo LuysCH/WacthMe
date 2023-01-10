@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WatchMe.Registrar"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#1F1F1F">
+            <Frame Margin="40,50,40,50"
+                   CornerRadius="20"
+                   VerticalOptions="FillAndExpand"
+                   BackgroundColor="#06BBE4">
+                <StackLayout BackgroundColor="#06BBE4">
+                    <Label Text="Registro"
+                           FontSize="30"
+                           HorizontalOptions="Center"
+                           TextColor="#1F1F1F"/>
+                    <Label Text="Nombre"/>
+                    <Entry Keyboard="Default"/>
+                    <Label Text="Apellidos"/>
+                    <Entry Keyboard="Default"/>
+                    <Label Text="Nombre Usuario"/>
+                    <Entry Keyboard="Default"/>
+                    <Label Text="Correo"/>
+                    <Entry Keyboard="Email"/>
+                    <Label Text="Contraseña"/>
+                    <Entry IsPassword="True"/>
+                    <Label Text="Confirmar Contraseña"/>
+                    <Entry IsPassword="True"/>
+                    <Button Text="Registrar"
+                            BackgroundColor="#1F1F1F"
+                            TextColor="#06BBE4"
+                            HorizontalOptions="Center"
+                            CornerRadius="20"
+                            TextTransform="None"
+                            FontAttributes="Bold"/>
+                    <Button Text="Regresar"
+                            BackgroundColor="#1F1F1F"
+                            TextColor="#06BBE4"
+                            TextTransform="None"
+                            FontAttributes="Bold"
+                            CornerRadius="20"
+                            HorizontalOptions="Center"
+                            x:Name="btnRegresar"
+                            Clicked="btnRegresar_Clicked"/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
