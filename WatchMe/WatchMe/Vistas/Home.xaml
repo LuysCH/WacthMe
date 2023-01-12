@@ -16,19 +16,16 @@
                             
                             <Image Source="{Binding Imagen}" HeightRequest="50" WidthRequest="50"/>
                             <Label Text="{Binding Titulo}" Margin="0,10,0,0"/>
-                            
-                            <Button Text="Trailer"  HorizontalOptions="EndAndExpand"                                  
+                            <Button Text="Trailer" HorizontalOptions="EndAndExpand" 
                                     VerticalOptions="CenterAndExpand"
-                                    x:Name="Trailer"
-                                    Clicked="Trailer_Clicked"
-                                    TranslationX="5"/>
+                                    x:Name="btnTrailer"
+                                    Clicked="btnTrailer_Clicked"/>
                             <Entry Text="{Binding Trailer}"  IsVisible="false"
-                                   x:Name="txtTrailer"
-                                   TranslationX="6"/>
+                                   x:Name="txtTrailer"/>
                             <Button Text="ver ahora " HorizontalOptions="EndAndExpand" 
                                     VerticalOptions="CenterAndExpand"
-                                    x:Name="VerAhora"
-                                    Clicked="Ver_Ahora_Clicked"/>
+                                    x:Name="btnVerAhora"
+                                    Clicked="btnVerAhora_Clicked"/>
                             <Entry Text="{Binding Enlace_Pelcula}"  IsVisible="false"
                                    x:Name="txtEnlace"/>
                         </StackLayout>

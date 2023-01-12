@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using WatchMe.Datos;
 using System.Net.Http;
 using System.Net;
 using Newtonsoft.Json.Linq;
@@ -67,17 +66,15 @@ namespace WatchMe
 
             testListView.ItemsSource= modelList;
         }
-
         
-        
-        private void Ver_Ahora_Clicked(object sender, EventArgs e)
+        private void btnTrailer_Clicked(object sender, EventArgs e)
         {
-               
+
         }
 
-        private void Trailer_Clicked(object sender, EventArgs e)
+        private void btnVerAhora_Clicked(object sender, EventArgs e)
         {
-           
+
         }
     }
 }

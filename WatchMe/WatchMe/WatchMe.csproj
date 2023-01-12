@@ -33,4 +33,14 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Datos\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Vistas\InicioSesion.xaml.cs">
+      <DependentUpon>InicioSesion.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
 </Project>
